@@ -219,6 +219,25 @@ a {
 
 .portfolio {
     padding-bottom: 30px;
+
+    .portfolio-item {
+        padding-bottom: 10px;
+
+        img {
+            width: 100%;
+            border: 5px solid white;
+            filter: gray; /* IE6-9 */
+            -webkit-filter: grayscale(1);
+            transition: all 0.5s ease-in-out; 
+
+            &:hover {
+                filter: none;
+                -webkit-filter: grayscale(0);
+
+            }
+        }
+
+    }
 }
 
 .personal {

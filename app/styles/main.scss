@@ -251,6 +251,19 @@ a {
             padding: 3%
         }
 
+        .portfolio-bullets {
+            color: $color40;
+            transition: all 0.5s ease-in-out; 
+
+            &:hover {
+                color: #686766;
+            }
+
+            ul {
+                padding-left: 17px;
+            }
+        }
+
     }
 
     @media only screen and (max-width: 480px) {

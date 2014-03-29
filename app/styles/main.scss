@@ -237,7 +237,33 @@ a {
             }
         }
 
+        .portfolio-copy {
+            padding-left: 5%;
+            padding-top: 5%;
+
+
+            h3 {
+                margin-top: 0px;
+            }
+        }
+
+        .portfolio-image {
+            padding: 3%
+        }
+
     }
+
+    @media only screen and (max-width: 480px) {
+        .portfolio-image {
+            width: 100%;
+            padding: 5% 15%;
+        }
+
+        .portfolio-copy {
+            width: 100%;
+        }
+    }
+
 }
 
 .personal {
@@ -257,7 +283,7 @@ a {
 
 .row {    
     @media only screen and (max-width: 770px) {
-        padding-left: 10px;
+        padding: 0px 15px;
     }
 }
 

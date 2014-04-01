@@ -254,13 +254,15 @@ a {
         .portfolio-bullets {
             color: $color40;
             transition: all 0.5s ease-in-out; 
+            padding-left: 0px;
 
             &:hover {
                 color: #686766;
             }
 
             ul {
-                padding-left: 17px;
+                padding-left: 0px;
+                list-style: none;
             }
         }
 

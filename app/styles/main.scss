@@ -4,7 +4,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 
 // Custom variables
-$navbar-height: 80px;
+$navbar-height: 73px;
 $cta-color: #ECA307;
 $cta-color2: #B67D05;
 $cta-color3: #EBD8B2;
@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2 {
     color: $title-color;
+    font-family: 'Droid Serif', serif;
 }
 
 a {
@@ -50,7 +51,7 @@ a {
 /* Custom page header */
 .header {
     // border-bottom: 1px solid $title-color;
-    box-shadow: 0px 7px 10px $title-color;
+    box-shadow: 0px 1px 0px $title-color;
     background-color: $color10;
     position: fixed;
     height: $navbar-height;
@@ -65,7 +66,7 @@ a {
 
     .text-muted {
         padding-bottom: 28px;
-        padding-top: 15px;
+        padding-top: 6px;
         transition: all 0.5s ease-in-out;
         font-family: 'Candal', sans-serif;
         font-size: 3.2em;
@@ -73,7 +74,7 @@ a {
 
         &:hover {
             color: $cta-color;
-            padding-top: 5px;
+            padding-top: 0px;
         }
     }
 

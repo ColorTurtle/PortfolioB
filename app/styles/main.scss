@@ -240,7 +240,7 @@ a {
 
         .portfolio-copy {
             padding-left: 5%;
-            padding-top: 5%;
+            padding-bottom: 30px;
 
 
             h3 {
@@ -249,7 +249,8 @@ a {
         }
 
         .portfolio-image {
-            padding: 3%
+            padding: 0px;
+            margin-bottom: 15px;
         }
 
         .portfolio-bullets {
@@ -271,8 +272,11 @@ a {
 
     @media only screen and (max-width: 480px) {
         .portfolio-image {
+            img {
             width: 100%;
-            padding: 5% 15%;
+            }
+                
+            padding: 10px;
         }
 
         .portfolio-copy {
@@ -284,6 +288,10 @@ a {
 
 .personal {
     padding-bottom: 30px;
+}
+
+.tick-item {
+    padding-left: 0px;
 }
 
 /* Custom page footer */
